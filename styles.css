@@ -5,10 +5,14 @@ body {
     flex-direction: column;
 }
 
+/* Top Panel Styling */
+
 .top-panel {
     background-color: #1f2937;
     color: #F9FAF8;
 }
+
+/* Header Styling */
 
 .header {
     display: flex;
@@ -36,11 +40,15 @@ ul {
     gap: 16px;
 }
 
+/* Header Done */
+
+/* Top panel content section */
+
 .panel.content {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 48px 10%;
+    justify-content: space-around;
+    padding: 96px 10%;
     gap: 48px;
     
 }
@@ -76,6 +84,51 @@ ul {
     height: 270px;
     background-color: grey;
     flex-shrink: 0;
+}
+
+/* Top panel styling finished */
+
+/* Second Panel styling */
+
+.another-panel {
+    display:flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 96px 10%;
+    align-items: center;
+    gap: 32px;
+}
+
+.title {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.images {   
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text { 
+    text-align: center;
+    width: 200px;
+    color:#1f2937;
+    margin-top: 16px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 5px solid royalblue;
 }
 
 
